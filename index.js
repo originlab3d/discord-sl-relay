@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 
 // === VARIABLES ENVIRONNEMENT ===
 const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
-const CHANNEL_ID = process.env.CHANNEL_ID || "123456789012345678"; // mets ton vrai salon Discord ici
+const CHANNEL_ID = process.env.CHANNEL_ID || "1053752734836342865"; // mets ton vrai salon Discord ici
 let slURL = "";
 
 if (!DISCORD_TOKEN) {
